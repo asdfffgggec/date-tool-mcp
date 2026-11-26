@@ -1,20 +1,18 @@
 # date-tool-mcp
 
-## 基本信息
+**Name:** date-tool-mcp  
+**Description:** A simple MCP server that returns the current date in YYYY-MM-DD format.  
+**Author:** asdfffgggec  
+**Repository:** https://github.com/asdfffgggec/date-tool-mcp  
+**License:** MIT  
+**Tags:** date-tool, kaneai  
+**Transport:** stdio
 
-- 名称：date-tool-mcp
-- 描述：提供当前日期查询的 MCP Server，返回 `YYYY-MM-DD` 格式的日期。
-- 作者：asdfffgggec
-- 仓库：https://github.com/asdfffgggec/date-tool-mcp
-- 许可证：MIT
-- 标签：date-tool, kaneai
-- 传输方式：stdio
+## About
 
-## 功能
+`date-tool-mcp` 是一个提供当前日期查询的 MCP Server，返回 `YYYY-MM-DD` 格式的日期。
 
-- `get_today`：返回当前年月日，格式为 `YYYY-MM-DD`。
-
-## 服务配置
+## MCP Server config
 
 ```json
 {
@@ -27,10 +25,15 @@
 }
 ```
 
-## 本地运行
+## Installation
 
 ```bash
 pip install -r mcp/requirements.txt
+```
+
+## Usage
+
+```bash
 python mcp/server.py
 ```
 
@@ -38,4 +41,4 @@ python mcp/server.py
 
 ### get_today
 
-返回当前年月日，格式 `YYYY-MM-DD`。
+Returns the current date in `YYYY-MM-DD` format.
